@@ -8,7 +8,7 @@ adc = ADC(Pin(ADC_PIN))
 led = Pin(LED_PIN, Pin.OUT)
 
 adc.atten(ADC.ATTN_11DB)		# ~0..3.6V
-adc.width(ADC.WIDTH_12BIT)		# 0..4095
+#adc.width(ADC.WIDTH_12BIT)		# 0..4095
 
 
 threshold = 33200   # ~50% af den fulde opløsning
